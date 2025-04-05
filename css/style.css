@@ -47,7 +47,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-
     padding: 5rem 2rem;
     color: var(--white);
     background: var(--bg-dark);
@@ -73,6 +72,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .pricing_card {
@@ -80,7 +80,7 @@ body {
     width: 16rem;
     max-width: 16rem;
     height: 35rem;
-    margin: 0 .3rem;
+    margin: .3rem .3rem;
     padding: 4rem 1rem 1rem 1rem;
     border-radius: .2rem;
     display: flex;
