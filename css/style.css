@@ -11,8 +11,8 @@
     /*  colors */
     --bg-color-light: #5D5F73;
     --bg-color-dark: #2F2F3D;
-    --yellow-light: #FDC624;
-    --yellow-dark: #EDB718;
+    --yellow-light: #f9c52b;
+    --yellow-dark: #e6b111;
     --teal-light: #55DCE7;
     --teal-dark: #3DCAD4;
     --blue-light: #6BDFFF;
@@ -22,7 +22,7 @@
     --white: #FFFFFF;
     
     /*  gradients  */
-    --bg-teal: linear-gradient(0deg, var(--teal-light), var(--teal-dark));
+    --bg-teal: linear-gradient(0deg, var(--teal-dark), var(--teal-light));
     --bg-dark: linear-gradient(135deg, var(--bg-color-dark), var(--bg-color-light));
     --bg-yellow: linear-gradient(0deg, var(--yellow-dark), var(--yellow-light));
     --bg-blue: linear-gradient(0deg, var(--blue-dark), var(--blue-light));
